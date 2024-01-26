@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset=utf-8>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>UlTIM 8</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link rel="icon" type="image/x-icon" href="images/favicon.svg">
+		<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/fonts.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/coming-soon-style.css" type="text/css" media="screen">
+		
+	</head>
+
+	<body id="main">
+		<div class="all">
+			<header class="header">
+				<h1 class="header__logo">
+					<span class="header__title">LAUNCHING SOON</span>
+					<img src="images/coming-soon-logo.svg" alt="Cooming soon logo" width="882" height="148" loading="lazy">
+				</h1>
+			</header>
+
+			<section class="content">
+				<!-- Slider main container -->
+				<div class="image-slider swiper-container">
+					<!-- Additional required wrapper -->
+					<div class="image-slider__wrapper swiper-wrapper">
+						<!-- Slides -->
+						<div class="image-slider__slide swiper-slide">
+							<div class="image-slider__image" style="background-image: url(./images/slider-1.jpg);">
+							</div>
+							<div class="image-slider__image-mobile" style="background-image: url(./images/slider-1-mobile.jpg);">
+							</div>
+						</div>
+						<div class="image-slider__slide swiper-slide">
+							<div class="image-slider__image" style="background-image: url(./images/slider-2.jpg);">
+							</div>
+							<div class="image-slider__image-mobile" style="background-image: url(./images/slider-2-mobile.jpg);">
+							</div>
+						</div>
+						<div class="image-slider__slide swiper-slide">
+							<div class="image-slider__image" style="background-image: url(./images/slider-3.jpg);">
+							</div>
+							<div class="image-slider__image-mobile" style="background-image: url(./images/slider-3-mobile.jpg);">
+							</div>
+						</div>
+						<div class="image-slider__slide swiper-slide">
+							<div class="image-slider__image" style="background-image: url(./images/slider-4.jpg);">
+							</div>
+							<div class="image-slider__image-mobile" style="background-image: url(./images/slider-4-mobile.jpg);">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>	
+
+			<footer class="footer">
+				<div class="footer__block">
+					<div class="footer__newsletter">
+						<h2>GET NOTIFIED WHEN <span>WE LAUNCH</span></h2>
+						<form class="footer__form" action="#" method="post">
+							<input type="email" class="footer__email-input" name="email" placeholder="Email Address" required>
+							<button type="submit" class="footer__notify-btn">Notify Me</button>
+						</form>
+					</div> 
+					<div class="footer__copyright">
+						<img src="images/copyright-icons.svg" alt="Cooming soon icons" width="291" height="44" loading="lazy">
+						Copyright &copy;2024 U8 HOLDINGS LLC. All Rights Reserved. copyright 2020
+					</div>
+				</div>   
+			</footer>
+		</div>
+		
+		<script src="js/swiper-bundle.min.js"></script>
+		<script>
+			new Swiper('.image-slider',{
+				effect: 'fade',
+				loop:true,
+				centeredSlides: true,
+				speed: 1400,
+				autoplay: {
+					delay: 3000,
+					disableOnInteraction: false,
+				}
+			});
+		</script>
+	</body>
+</html>
