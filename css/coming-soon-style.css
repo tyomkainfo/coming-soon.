@@ -189,6 +189,7 @@ header {
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 20px;
+	letter-spacing: 1px;
 }
 
 .footer__newsletter span {
