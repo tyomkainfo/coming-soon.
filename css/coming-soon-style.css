@@ -189,7 +189,7 @@ header {
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 20px;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 }
 
 .footer__newsletter span {
@@ -221,11 +221,11 @@ header {
 	box-sizing: border-box;
 	background-color: #FB2400;
 	cursor:pointer;
-	transition: all .3 ease;
+	transition: 250ms;
 }
 
 .footer__notify-btn:hover {
-	background-color: #000;
+	background-color: #004FA9;
 }
 
 .footer__email-input {
@@ -237,8 +237,13 @@ header {
 	outline: none;
 	min-width: 200px;
 	width: 50%;
+	transition: 250ms;
 }
-
+.footer__email-input:focus{
+	background-color: white;
+	color: black!important;
+	opacity: 1;
+}
 @media screen and (max-width: 989px) {
 	.footer__form {
 		flex-direction: column;
